@@ -2,7 +2,7 @@ from yelpapi import YelpAPI
 import pandas as pd
 from textblob import TextBlob
 
-api_key = "WVGpd1mx7xIuSuGh93Xgbmp1gN0GeV1mpY5YdwWmDNS27yQM4pnUPZ9_kpCqACsJbxl54E95yzTPZXaDMlnBu8LzbCSRKOhTGwtLO0ONfhv16LJrv374N6Bzu2pKZXYx"
+api_key = ""
 yelp_api_instance = YelpAPI(api_key)
 search_term = 'service'
 location_term = 'El Paso, TX'
